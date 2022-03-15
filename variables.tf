@@ -10,6 +10,11 @@ variable "prefix" {
   default = "mohan-kumar"
 }
 
+variable "Department" {
+  description = "Department Tag."
+  default = "devops"
+}
+
 variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-1"
